@@ -25,7 +25,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold" />
 
-        <!-- See various input types https://developer.android.com/training/keyboard-input/style -->
+        <!-- See various input types under https://developer.android.com/training/keyboard-input/style -->
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:hint="@string/hint_email" />
 
     </LinearLayout>
